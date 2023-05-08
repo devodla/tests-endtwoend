@@ -1,0 +1,18 @@
+{
+  "name": "tests-endtwoend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch api.js",
+    "test:dev": "node --test --watch api.test.js",
+    "test": "node --test api.test.js"
+  },
+  "keywords": [],
+  "author": "Huillca, Reynaldo <hi@layme.uk> (https://layme.uk/)",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}
